@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #0e1220;
+}
+
+form{
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-textarea, .form-input{
+    background-color: #1a213b;
+    border: none;
+    color: aliceblue;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+}
+
+.form-textarea{
+    resize: none;
+    height: 200px;
+}
+
+.form-btn{
+    background-color: #38fb58;
+    padding: .5rem 1 rem;
+    width: 100px;
+    height: 2rem;
+    color: #1a213b;
+    font-size: medium;
+    font-weight: 500;
+    border-radius: .5rem;
+}
+
+.tasks{
+    margin: 1rem 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.task{
+    color: aliceblue;
+    background-color: #1a213b; 
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.editread{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.read-more{
+    color: #38fb58;
+    text-decoration: none;
+}
+
+.edit{
+    color: #ececec;
+    text-decoration: none;
+}
+
+.delete{
+    color: red;
+    text-decoration: none;
+}
+
+.confirm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.del{
+    background-color: red;
+    padding: .5rem;
+    border-radius: .5rem;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: x-large;
+    display: inline-block;
+    text-decoration: none; 
+}
+
+.no{
+    color: aliceblue;
+}
+
+.showcontainer{
+    color: aliceblue;
+    margin: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #1a213b;
+    padding: 1rem;
+    border-radius: 1rem;
+}

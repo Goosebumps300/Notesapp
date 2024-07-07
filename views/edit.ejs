@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+    <form action="/edit" method="post">
+        <a class="read-more" href="/">back to the main screen
+        </a>
+        <input name="previous" type="text" class="form-input" placeholder="prevous name" value="<%=filename%>" readonly="true"/>
+        <input name="new" type="text" class="form-input" placeholder="newname"/>
+        <button type="submit" class="form-btn">change name</button>
+    </form>
+
+
+
+
+    <script src="/Javascript/script.js"></script>
+</body>
+</html>
